@@ -1,0 +1,86 @@
+body{
+
+}
+
+#meu-id{
+    color: rgb(62, 126, 128);
+}
+
+.fonte{
+    font-size: 11px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: bold; 
+}
+
+.texto{
+    text-align: left;
+    text-decoration: overline;
+    text-indent: 16px;
+    text-transform: uppercase;
+}
+
+.boxmodel{
+    /* background-color: rgb(106, 106, 164); */
+    width: 150px;
+    height: 200px;
+}
+
+.pad{
+    background-color: #6495ed;
+    padding-top: 50px ;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.marg{
+    background-color: #6495ed;
+    margin: 10% ;
+}
+
+.border{
+    background-color: #6495ed;
+    border: 15px solid black;
+}
+
+.out{
+    background-color: #6495ed;
+    border: 5px solid white;
+    outline: 10px solid black;
+}
+
+.strong{
+    background-color: blue;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.disp{
+    background-color: #2f456c;
+    display: inline-block;
+}
+
+a:hover{
+    /* text-align: center; */
+}
+a:link{
+    /* text-align: center; */
+}
+
+a:hover{
+    /* text-align: center;
+    color: aquamarine; */
+}
+a:active{
+    /* text-align: center; */
+}
+
+.list{
+    list-style: circle;
+    list-style-position: inside;
+    list-style-image: none;
+}
+
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-sizing</title>
+
+    <link rel="stylesheet" href="box_sizing.css">
+</head>
+<body>
+    <h1>Box-sizing</h1>
+
+    <h2>São blocos em camadas de fora para dentro, seguindo a ordem:</h2>
+
+    <h3>Primeira camada:</h3>
+
+    <p>Um bloco contém um "width(largura)" e "height(altura)" e esse bloco contém "background-color(cor de fundo)".</p>
+
+    <h3>Próxima camada:</h3>
+
+    <p class="p1">Esse bloco é o padding (espaça o conteúdo dentro do bloco). Os lados dele são: top(em cima); right(direita); bottom(em baixo); left(esquerda)</p>
+
+    <h3>Próxima camada:</h3>
+
+    <p class="p2">Border - cria uma borda interna no bloco. Os lados dele são: top(em cima); right(direita); bottom(em baixo); left(esquerda). Nesse elemento é possivel formatar com "padding" e "background-color".  </p>
+
+    <h3>Próxima camada:</h3>
+
+    <p class="p3">Margin - espaça o a parte de fora de um bloco. Os lados dele são: top(em cima);<strong>right(direita)</strong>; bottom(em baixo); left(esquerda). Nesse elemento é possivel formatar com "padding" e "background-color"
+    </p>
+
+    <h3 class="box">Box sizing</h3>
+
+    <ul class="menu">
+        <li><a href="#">content-box</a></li>
+        <li><a href="#">border-box</a></li>
+    </ul>
+
+    <!-- content-box; border-box (o elemento terá exatamente a mesma quantidade de pixels exigida) -->
+</body>
+</html>

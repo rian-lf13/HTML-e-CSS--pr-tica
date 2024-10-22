@@ -1,0 +1,31 @@
+body{
+    font-family: sans-serif;
+}
+p{
+    width: 85%;
+    background-color: #ccc;
+    margin: 10%;
+}
+h1{
+    margin: 50px;
+    border: 2px solid red;
+    width: 25%;
+}
+a{
+    padding: 25px;
+    background-color: yellow;
+    display: block;
+    /* em display: block; o conteudo se comporta como um bloco */
+}
+strong{
+    padding: 20px;
+    background-color: rebeccapurple;
+    display: inline-block;
+    /* em display: inline-block; o conteudo fica em uma linha dentro de um bloco */
+}
+b{
+    display:none;
+    /* remove do o conteudo */
+    visibility: hidden;
+    /* a area onde estava o conteudo se mantem preservada. */
+}

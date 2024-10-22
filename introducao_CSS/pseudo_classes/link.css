@@ -1,0 +1,22 @@
+h1, h2, a, p{
+    font-family: sans-serif;
+}
+
+a{
+    display: inline-block;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color:#d2691e;
+}
+
+a:hover{
+    color: rgb(72, 74, 74);
+}
+a:active{
+    background-color: #d2691e;
+}

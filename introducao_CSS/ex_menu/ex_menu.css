@@ -1,0 +1,48 @@
+body{
+    background-color: #9d9c9c8b;
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    background-color: #8a8ae59c;
+    text-align: center;
+    padding: 5px;
+    color: #17176dec;  
+    margin-top: 10px; /*parte de cima*/
+    margin-bottom: 40px; /*parte de baixo */
+}
+
+a.hover{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color: #17176dec;
+}
+
+.menu{/*todos os elementos da UL(menu), são elementos de LI*/
+    /* background-color: white; */
+    text-align: right;
+
+}
+
+.menu li{/*por caracteristica LI é um elemento de bloco*/
+    list-style-type: none;
+    /* background-color: rgb(156, 156, 156); */
+    /* margin: 10px; */
+    text-align: center;
+    display: inline-block;/* vão colocar os blocos em uma linha*/
+    padding: 0px; 
+}
+
+.menu a{
+    background-color: #9d9c9c8b;
+    padding: 16px; /*até esse momento do cod. a area de contato do mouse se expandiu*/
+    display: inline-block;/*é possivel diminuir o padding do MENU LI para o tamanho do bloco ficar exato*/
+}
+
+.menu a:hover{
+    background-color: #8a8ae59c;
+}

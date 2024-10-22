@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Fit, Min e Max-Content</title>
+
+    <style>
+        body{
+            text-align: left;
+            text-indent: 10px;
+        }
+        .container{
+            border: 1px solid black;
+            padding: 16px;
+            width: 300px;
+            height: 300px;
+            margin-bottom: 16px;
+            overflow: auto;
+            /* overflow: hidden; */
+            /* overflow: scroll; */
+            /* overflow: visible; */
+        }
+        .item{
+            border: 2px solid black;
+            background-color: cadetblue;
+            margin-bottom: 10px;
+            padding: 5px;
+            
+        }
+        .fit-content .item{
+            width: fit-content;
+        }
+        .min-content .item{
+            width: min-content;
+        }
+        .max-content .item{
+            width: max-content;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container fit-content">
+        <div class="item">Lorem</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, minima!</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi itaque vel, obcaecati laboriosam suscipit sapiente, modi facere deleniti porro unde dolor. Modi, sint consectetur. Quos.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, sint illo totam ex laboriosam ad unde, hic, itaque eligendi accusantium dolorum at ea. Cupiditate doloremque, natus labore, explicabo perferendis nam soluta asperiores placeat fugiat perspiciatis nesciunt enim excepturi, eveniet at quo ullam. Quos quasi adipisci totam nisi cumque tempora ducimus sed deserunt asperiores perferendis quam, aut reprehenderit! Ullam similique, quam labore consequatur impedit illo qui quae accusamus aut inventore voluptatem iusto nam quod assumenda exercitationem?</div>
+    </div>
+
+    <div class="container min-content">
+        <div class="item">Lorem</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, minima!</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi itaque vel, obcaecati laboriosam suscipit sapiente, modi facere deleniti porro unde dolor. Modi, sint consectetur. Quos.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, sint illo totam ex laboriosam ad unde, hic, itaque eligendi accusantium dolorum at ea. Cupiditate doloremque, natus labore, explicabo perferendis nam soluta asperiores placeat fugiat perspiciatis nesciunt enim excepturi, eveniet at quo ullam. Quos quasi adipisci totam nisi cumque tempora ducimus sed deserunt asperiores perferendis quam, aut reprehenderit! Ullam similique, quam labore consequatur impedit illo qui quae accusamus aut inventore voluptatem iusto nam quod assumenda exercitationem?</div>
+    </div>
+
+    <div class="container max-content">
+        <div class="item">Lorem</div>
+        <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, minima!</div>
+        <div class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi itaque vel, obcaecati laboriosam suscipit sapiente, modi facere deleniti porro unde dolor. Modi, sint consectetur. Quos.</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, sint illo totam ex laboriosam ad unde, hic, itaque eligendi accusantium dolorum at ea. Cupiditate doloremque, natus labore, explicabo perferendis nam soluta asperiores placeat fugiat perspiciatis nesciunt enim excepturi, eveniet at quo ullam. Quos quasi adipisci totam nisi cumque tempora ducimus sed deserunt asperiores perferendis quam, aut reprehenderit! Ullam similique, quam labore consequatur impedit illo qui quae accusamus aut inventore voluptatem iusto nam quod assumenda exercitationem?</div>
+    </div>
+    
+</body>
+</html>

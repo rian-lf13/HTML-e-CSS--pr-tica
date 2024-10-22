@@ -1,0 +1,45 @@
+body{
+    font-family: sans-serif;
+    width: 80%;
+    margin: auto;
+}
+p{
+    background-color: #ccc;
+}
+h1{
+    background-color: #bb4e4e;
+    width: 50%;
+    height: 35px;
+    margin: 20px;
+}
+h2{
+    background-color: #64e16d;
+    width: 175px;
+    height: 37px;
+    padding: 10px 12px 9px 10px;
+    margin-top: 56px;
+    /* width:80%;
+       margin: auto; */
+}
+.destaque{
+    background-color: orange;
+}
+.size{
+    width: 50px;
+    height: 100px;
+}
+.padding{
+    padding: 26px;
+}
+.margin{
+    margin: 27px;
+}
+.border{
+    border: 5px double rgb(77, 59, 59);
+}
+.border2{
+    border: 5px dashed rgb(45, 202, 113);
+}
+.outline{
+    outline: 5px dashed red;
+}
