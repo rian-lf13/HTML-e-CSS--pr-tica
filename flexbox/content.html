@@ -11,9 +11,6 @@
             border: black solid 3px;
             display: flex;
             margin-bottom: 16px;
-            flex-wrap: nowrap;
-            flex-direction: row-reverse;
-            
         }
 
         .flexbox div {
@@ -21,6 +18,52 @@
             width: 270px;
             margin: 15px;
         }
+
+        .flex-container1{
+            flex-wrap: nowrap;
+            flex-direction: row-reverse;
+            flex-flow: row wrap;
+        }
+         .flex-container2{
+            justify-content:space-between;
+         }
+
+         .flex-container2 div{
+            width: 30px;
+            margin: 0px;
+         }
+
+         .flex-container3{
+            justify-content: space-around;
+            align-items: center;
+         }
+
+         .flex-container3 div{
+            width: 30px;
+            margin: 0;
+         }
+
+         .flex-container4{
+            justify-content: space-around;
+            align-items: baseline;
+            align-content: flex-start;
+         }
+
+         .flex-container4 div{
+            width: 30px;
+            margin: 0;
+         }
+
+         .flex-container5{
+            justify-content: center;
+            align-items: flex-end;
+            align-content: flex-start;
+            flex-wrap: wrap;
+         }
+
+         .flex-container5 div{
+            width: 100px;
+         }
     </style>
 
 </head>
@@ -32,6 +75,34 @@
         <div class="div3">3</div>
         <div class="div4">4</div> 
     </div>   
+
+    <div class="flexbox flex-container2">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div> 
+    </div>
+
+    <div class="flexbox flex-container3">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div> 
+    </div>
+
+    <div class="flexbox flex-container4">
+        <div class="div1">1</div>
+        <div class="div2" style="font-size: 36px;">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div> 
+    </div>
+
+    <div class="flexbox flex-container5">
+        <div class="div1">1</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div> 
+    </div>
 
 </body>
 </html>
