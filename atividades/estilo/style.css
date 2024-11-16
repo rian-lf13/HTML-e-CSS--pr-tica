@@ -1,0 +1,20 @@
+body{
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;    
+}
+.cabecalho-item1{
+    margin: 50px;
+    height: 250px;
+    background-color: burlywood;
+    border: black solid 2px;
+    border-radius: rgba(0, 0, 0, 0.499) 5px 5px 10px;
+}
+
+article{
+    background-color: chocolate;
+}
+
+.descricao-item{
+    background-color: aquamarine;
+}
